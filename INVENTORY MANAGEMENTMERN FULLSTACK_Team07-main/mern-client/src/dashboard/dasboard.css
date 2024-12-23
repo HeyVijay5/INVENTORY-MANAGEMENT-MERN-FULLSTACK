@@ -1,0 +1,96 @@
+/* dashboard.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Dashboard container */
+  .max-w-7xl {
+    margin: auto;
+  }
+  
+  /* Main dashboard card */
+  .bg-white {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .text-3xl {
+    color: #333;
+  }
+  
+  /* Members connected section */
+  .text-gray-400 {
+    color: #666;
+  }
+  
+  .h-100 {
+    height: 100px;
+  }
+  
+  /* Buttons */
+  .button {
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Stats section */
+  .text-2xl {
+    color: #333;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  /* Stats cards */
+  .bg-green-100,
+  .bg-yellow-100,
+  .bg-purple-100 {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-gray-800 {
+    color: #333;
+  }
+  
+  /* Your tasks today section */
+  .text-gray-600 {
+    color: #666;
+  }
+  
+  /* Task cards */
+  .bg-white {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styles */
+  .my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Hover effects */
+  .hover:border-gray-400:hover,
+  .hover:text-gray-800:hover {
+    border-color: #cbd5e0;
+    color: #4a5568;
+  }
+  
+  .hover:text-white:hover {
+    color: #fff;
+  }
+  
+  .hover:text-yellow-800:hover {
+    color: #f6e05e;
+  }
+  
+  .hover:underline:hover {
+    text-decoration: underline;
+  }
+  

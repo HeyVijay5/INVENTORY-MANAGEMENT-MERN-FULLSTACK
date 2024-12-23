@@ -1,0 +1,42 @@
+.swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background-image: url('src/assets/watch3.jpg');
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-image: url('src/assets/book1.png');
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-image: url('src/assets/headphone.webp');
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-image: url('src/assets/mouse.webp');
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-image: url('src/assets/port.jpg');
+  }
+
+  .swiper-slide:nth-child(6n) {
+    background-image: url('src/assets/tshirt.webp');
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-image: url('src/assets/bulb.jpg');
+  }
